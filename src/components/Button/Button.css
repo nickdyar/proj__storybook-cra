@@ -1,6 +1,4 @@
-import styled from 'styled-components'
-
-/* .button {
+.button {
   display: inline-flex;
   border: none;
   color: #f1f5fe;
@@ -11,30 +9,7 @@ import styled from 'styled-components'
   border-radius: 4px;
   cursor: pointer;
 }
-*/
 
 /* variantion classes change bg color */
-
-/* .primary { background-color: #3e52ff; }
-.secondary { background-color: #27282a; } */
-
-const Button = styled.button`
-height: 32px;
-padding: 0 32px;
-border-radius: 16px;
-border: none;
-color: white;
-font-size: 13px;
-font-weight: 600;
-text-shadow: 1px 1px 0 #3a00df;
-background: linear-gradient(170deg, #359eff 5%, #3a00df 95%);
-`
-    "@babel/core": "^7.7.5",
-    "@storybook/addons": "^5.3.13",
-    "@storybook/preset-create-react-app": "^1.5.2",
-    "@storybook/react": "^5.3.13",
-    "babel-loader": "^8.0.6",
-    "storybook-addon-styled-component-theme": "link:../",
-    "react-scripts": "^3.4.0",
-    "styled-components": "^5.0.1",
-    "typescript": "^3.7.5"
+.primary { background-color: #3e52ff; }
+.secondary { background-color: #27282a; }
